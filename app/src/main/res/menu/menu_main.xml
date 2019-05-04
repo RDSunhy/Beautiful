@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_set"
+        android:orderInCategory="0"
+        android:icon="@mipmap/img_search"
+        android:title="搜索"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_return_main"
+        android:orderInCategory="1"
+        android:title="反馈"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_quit"
+        android:orderInCategory="2"
+        android:icon="@drawable/img_circle"
+        android:title="退出"
+        app:showAsAction="never"/>
+</menu>

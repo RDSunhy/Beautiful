@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFAEB9">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="声   明"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_30"
+            android:layout_marginTop="@dimen/dp_5"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.所有图片以及接口均为网络获取."
+            android:textColor="#fff"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textSize="@dimen/sp_18"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.旨在学习如有争议即刻删除."
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:textSize="@dimen/sp_18"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.代码开源接口不可非法使用."
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:textSize="@dimen/sp_18"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By：Shy"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:textSize="@dimen/sp_12"
+            android:gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_legs"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_legs" />
+
+            <TextView
+                android:id="@+id/tv_legs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_legs"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/sp_12"
+                android:layout_marginTop="2dp"
+                android:text="美腿" />
+            <ImageButton
+                android:id="@+id/bn_legs"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_below="@+id/tv_legs"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_sub"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_lolita"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_lolita" />
+
+            <TextView
+                android:id="@+id/tv_lolita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_lolita"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:text="萝莉"
+                android:textSize="@dimen/sp_12" />
+
+            <ImageButton
+                android:id="@+id/bn_lolita"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_below="@+id/tv_lolita"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_sub"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_temptation"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_temptation" />
+
+            <TextView
+                android:id="@+id/tv_temptation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_temptation"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:text="诱惑"
+                android:textSize="@dimen/sp_12" />
+
+            <ImageButton
+                android:id="@+id/bn_temptation"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_below="@+id/tv_temptation"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_sub"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_europe"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_europe" />
+
+            <TextView
+                android:id="@+id/tv_europe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_europe"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/sp_12"
+                android:layout_marginTop="2dp"
+                android:text="欧美" />
+            <ImageButton
+                android:id="@+id/bn_europe"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_below="@+id/tv_europe"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_sub"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_acg"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_acg" />
+
+            <TextView
+                android:id="@+id/tv_acg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_acg"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:text="二次元"
+                android:textSize="@dimen/sp_12" />
+
+            <ImageButton
+                android:id="@+id/bn_acg"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_below="@+id/tv_acg"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_sub"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_ttt"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/img_temptation" />
+
+            <TextView
+                android:id="@+id/tv_ttt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_ttt"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:text="诱惑"
+                android:textSize="@dimen/sp_12" />
+
+            <ImageButton
+                android:id="@+id/bn_ttt"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_below="@+id/tv_ttt"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/img_sub"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bn_next"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:text="选 择 完 成"
+            android:textColor="#fff"
+            android:background="#FFAEB9"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_gravity="bottom">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
