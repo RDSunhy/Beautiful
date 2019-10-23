@@ -1,2 +1,4 @@
 # Beautiful
-一款看图app，实践retrofit+rxjava和glide加载图片
+Image show
+
+retrofit+rxjava+glide
